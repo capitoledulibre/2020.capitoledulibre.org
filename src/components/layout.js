@@ -9,11 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import "@fortawesome/fontawesome-free/scss/fontawesome.scss"
-import "@fortawesome/fontawesome-free/scss/brands.scss"
-
-import "../styles/bootstrap.scss"
-import "../styles/styles.scss"
+import "../styles/main.scss"
 import NavBar from "./navbar"
 import Header from "./header"
 import Footer from './footer'

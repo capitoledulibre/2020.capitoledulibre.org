@@ -1,9 +1,17 @@
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+$cdl_orange: #F05F40;
+
+$fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts";
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+
+// -- Bootstrap overrides
+
+// Colors
+$primary: $cdl_orange;
+
+$font-family-base: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+
+//$theme-colors: ('default': $smyler-white-color);
 
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
@@ -42,3 +50,21 @@
 @import "~bootstrap/scss/spinners";
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/print";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+hr {
+  border-color: $cdl_orange;
+  border-width: 3px;
+  max-width: 50px;
+}
+hr.light {
+  border-color: white;
+}

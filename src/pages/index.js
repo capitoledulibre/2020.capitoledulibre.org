@@ -15,7 +15,7 @@ const IndexPage = () => (
             <h2 className="section-heading">C'est pour vous!</h2>
             <hr className="light" />
             <p className="text-faded">Que vous ne connaissiez rien au logiciel libre, que vous soyez un⋅e geek averti⋅e, le Capitole du Libre vous propose un programme adapté.</p>
-            <a href="#event" className="page-scroll btn btn-default btn-xl sr-button" data-sr-id="21" >Découvrez les détails de l'événement</a>
+            <a href="#event" className="page-scroll btn btn-light btn-lg sr-button" data-sr-id="21" >Découvrez les détails de l'événement</a>
           </div>
         </div>
       </div>
@@ -34,28 +34,28 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-paper-plane text-primary sr-icons" data-sr-id="2" ></i>
+              <i className="fas fa-4x fa-paper-plane text-primary sr-icons" data-sr-id="2" ></i>
               <h3>Keynotes</h3>
               <p className="text-muted">Plusieurs keynotes et tables rondes avec des intervenant⋅e⋅s prestigieux⋅ses sont organisées tout le week-end</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-bullhorn text-primary sr-icons" data-sr-id="3" ></i>
+              <i className="fas fa-4x fa-bullhorn text-primary sr-icons" data-sr-id="3" ></i>
               <h3>Conférences</h3>
               <p className="text-muted">Autour de thématiques techniques: C++, développement Web, embarqué, DevOps; de logiciels libres de création graphique et multimédia; de jeux libres; d'enjeux du logiciel libre dans la société et des communautés.<br /><a href="https://2018.capitoledulibre.org/programme/#schedule">Retrouvez les conférences de l'édition 2018</a></p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-university text-primary sr-icons" data-sr-id="4" ></i>
+              <i className="fas fa-4x fa-university text-primary sr-icons" data-sr-id="4" ></i>
               <h3>Ateliers</h3>
               <p className="text-muted">Venez découvrir le logiciel libre lors d'ateliers avec des expert⋅e⋅s pour vous assister.<br /><a href="https://2018.capitoledulibre.org/programme/#schedule">Retrouvez les ateliers de l'édition 2018</a></p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-life-ring text-primary sr-icons" data-sr-id="5" ></i>
+              <i className="fas fa-4x fa-life-ring text-primary sr-icons" data-sr-id="5" ></i>
               <h3>Adoptez le logiciel libre</h3>
               <p className="text-muted">Venez-vous faire aider pour installer Linux, pour corriger les problèmes avec votre Linux ou pour toutes les questions autour du logiciel libre. Un atelier permanent est là pour ça tout le week-end.</p>
             </div>
@@ -64,21 +64,21 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-heart text-primary sr-icons" data-sr-id="6" ></i>
+              <i className="fas fa-4x fa-heart text-primary sr-icons" data-sr-id="6" ></i>
               <h3>Village associatif</h3>
               <p className="text-muted">Retrouvez les associations qui œuvrent pour le logiciel libre: Framasoft, April, Mozilla, Debian, Toulibre,.. <br /><a href="/village-associatif/#village-associatif">Retrouvez la liste des associations présente au village associatif</a>.</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-child text-primary sr-icons" data-sr-id="7" ></i>
+              <i className="fas fa-4x fa-child text-primary sr-icons" data-sr-id="7" ></i>
               <h3>Ateliers pour les enfants</h3>
               <p className="text-muted">Les logiciels libres ludiques pour les plus jeunes à partir de 8 ans de 14h à 18h le samedi et de 14h à 16h le dimanche.</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-cutlery text-primary sr-icons" data-sr-id="8" ></i>
+              <i className="fas fa-4x fa-cutlery text-primary sr-icons" data-sr-id="8" ></i>
               <h3>Cocktail</h3>
               <p className="text-muted">Un moment de convivialité le samedi soir avec intervenant⋅e⋅s, organisateur⋅trice⋅s et public</p>
             </div>
@@ -87,28 +87,28 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-money text-primary sr-icons" data-sr-id="9" ></i>
+              <i className="fas fa-4x fa-money text-primary sr-icons" data-sr-id="9" ></i>
               <h3>Entrée</h3>
               <p className="text-muted">L'entrée à l'événement est libre et gratuite!</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-gamepad text-primary sr-icons" data-sr-id="10" ></i>
+              <i className="fas fa-4x fa-gamepad text-primary sr-icons" data-sr-id="10" ></i>
               <h3>LAN Party</h3>
               <p className="text-muted">Venez jouer avec vos ami(e)s à des jeux <a href="jeux.pdf">libres</a></p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-truck text-primary sr-icons" data-sr-id="11" ></i>
+              <i className="fas fa-4x fa-truck text-primary sr-icons" data-sr-id="11" ></i>
               <h3>Food Truck</h3>
               <p className="text-muted">Pour vous restaurer, des food truck sont à votre disposition les midis sur le site.</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-shopping-cart text-primary sr-icons" data-sr-id="12" ></i>
+              <i className="fas fa-4x fa-shopping-cart text-primary sr-icons" data-sr-id="12" ></i>
               <h3>Boutique de Goodies!</h3>
               <p className="text-muted">Repartez avec un t-shirt, un hoodie aux couleurs de votre projet libre préféré. Les ventes permettent de financer le Capitole du Libre et de financer les projets libres correspondants.</p>
             </div>
@@ -309,7 +309,7 @@ const IndexPage = () => (
       <div className="container text-center" id="sponsor">
         <div className="call-to-action">
           <h2>Soutenez le Capitole du Libre en devenant sponsor!</h2>
-          <a href="/Capitole-du-Libre-2019-Plaquette-Sponsors.pdf" className="btn btn-default btn-xl sr-button" data-sr-id="22" >Téléchargez notre dossier de sponsoring</a>
+          <a href="/Capitole-du-Libre-2019-Plaquette-Sponsors.pdf" className="btn btn-primary btn-lg sr-button" data-sr-id="22" >Téléchargez notre dossier de sponsoring</a>
         </div>
       </div>
     </section>
@@ -321,11 +321,11 @@ const IndexPage = () => (
         <div className="row text-center">
           <div className="col-xs-12 col-sm-12">
             <h3>Sponsors Platine</h3>
-            <a href="http://www.c-s.fr/" target="_blank">
+            <a href="http://www.c-s.fr/" target="_blank" rel="noopener noreferrer">
               <Image src="logo_cs_fond_transparent.png" alt="CS" className="logo-200px" title="CS" />
             </a>
             &nbsp;
-                <a href="https://www.sigfox.com" target="_blank">
+                <a href="https://www.sigfox.com" target="_blank" rel="noopener noreferrer">
               <Image src="Sigfox_BB_Logo_RGB.png" alt="Sigfox" className="logo-200px" title="Sigfox" />
             </a>
           </div>
@@ -334,31 +334,31 @@ const IndexPage = () => (
         <div className="row text-center">
           <div className="col-xs-12 col-sm-12">
             <h3>Sponsors Or</h3>
-            <a href="https://easymile.com/" target="_blank">
+            <a href="https://easymile.com/" target="_blank" rel="noopener noreferrer">
               <Image src="logo_easymile.png" alt="Easymile" className="logo-150px" title="Smile" />
             </a>
             &nbsp;
-                <a href="https://www.jolibrain.com" target="_blank">
+                <a href="https://www.jolibrain.com" target="_blank" rel="noopener noreferrer">
               <Image src="logo_jolibrain.png" alt="Jolibrain" className="logo-150px" title="Smile" />
             </a>
             &nbsp;
-                <a href="https://www.logilab.fr/" target="_blank">
+                <a href="https://www.logilab.fr/" target="_blank" rel="noopener noreferrer">
               <Image src="logo-logilab.svg" alt="Logilab" className="logo-150px" title="Logilab" />
             </a>
             &nbsp;
-                <a href="http://makina-corpus.com/" target="_blank">
+                <a href="http://makina-corpus.com/" target="_blank" rel="noopener noreferrer">
               <Image src="makina-corpus.png" alt="Makina Corpus" className="logo-100px" title="Makina Corpus" />
             </a>
             &nbsp;
-                <a href="https://puri.sm" target="_blank">
+                <a href="https://puri.sm" target="_blank" rel="noopener noreferrer">
               <Image src="purism.svg" alt="Purism" className="logo-100px" title="Purism" />
             </a>
             &nbsp;
-                <a href="https://smile.eu/fr" target="_blank">
+                <a href="https://smile.eu/fr" target="_blank" rel="noopener noreferrer">
               <Image src="SMILE_icone-full-orange -baseline.png" alt="Smile" className="logo-150px" title="Smile" />
             </a>
             &nbsp;
-                <a href="https://www.viveris.fr" target="_blank">
+                <a href="https://www.viveris.fr" target="_blank" rel="noopener noreferrer">
               <Image src="logo-viveris.svg" alt="Viveris" className="logo-150px" title="Viveris" />
             </a>
           </div>
@@ -367,11 +367,11 @@ const IndexPage = () => (
         <div className="row text-center">
           <div className="col-xs-12 col-sm-12">
             <h3>Sponsors Argent</h3>
-            <a href="https://www.collabora.com" target="_blank">
+            <a href="https://www.collabora.com" target="_blank" rel="noopener noreferrer">
               <Image src="CollaboraLogo2017.png" alt="Collabora" className="logo-150px" title="Collabora" />
             </a>
             &nbsp;
-                 <a href="http://www.objectif-libre.com" target="_blank">
+                 <a href="http://www.objectif-libre.com" target="_blank" rel="noopener noreferrer">
               <Image src="objectif-libre-au-service-de-votre-cloud-long-fblanc.svg" alt="Objectif Libre" className="logo-100px" title="Objectif Libre" />
             </a>
             &nbsp;
@@ -382,23 +382,23 @@ const IndexPage = () => (
           <div className="col-xs-12 col-sm-12">
             <h3>Sponsors Bronze</h3>
             <p>
-              <a href="https://bleemeo.com" target="_blank">
+              <a href="https://bleemeo.com" target="_blank" rel="noopener noreferrer">
                 <Image src="bleemeo_logo.svg" alt="Bleemeo" className="logo-100px" title="Bleemeo" />
               </a>
               &nbsp;
-                <a href="https://www.bluemind.net/" target="_blank">
+                <a href="https://www.bluemind.net/" target="_blank" rel="noopener noreferrer">
                 <Image src="bluemind.jpg" alt="Bluemind" className="logo-100px" title="Bluemind" />
               </a>
               &nbsp;
-                <a href="http://bootlin.com" target="_blank">
+                <a href="http://bootlin.com" target="_blank" rel="noopener noreferrer">
                 <Image src="bootlin-logo-240.png" alt="Bootlin" className="logo-100px" title="Bootlin" />
               </a>
               &nbsp;
-                <a href="http://evolix.com/" target="_blank">
+                <a href="http://evolix.com/" target="_blank" rel="noopener noreferrer">
                 <Image src="logo_evolix_3.0.png" alt="Evolix" className="logo-100px" title="Evolix" />
               </a>
               &nbsp;
-                <a href="https://oslandia.com" target="_blank">
+                <a href="https://oslandia.com" target="_blank" rel="noopener noreferrer">
                 <Image src="logo-oslandia.jpeg" alt="Oslandia" className="logo-100px" title="Oslandia" />
               </a>
               &nbsp;
@@ -409,51 +409,51 @@ const IndexPage = () => (
         <div className="row text-center">
           <div className="col-lg-4">
             <h3>Organisation</h3>
-            <a href="http://toulibre.org/" target="_blank">
+            <a href="http://toulibre.org/" target="_blank" rel="noopener noreferrer">
               <Image src="logo-toulibre.svg" alt="Toulibre" className="logo-150px" title="Toulibre" /></a>
           </div>
           <div className="col-lg-4">
             <h3>Partenaires</h3>
-            <a href="http://enseeiht.fr/" target="_blank">
+            <a href="http://enseeiht.fr/" target="_blank" rel="noopener noreferrer">
               <Image src="inpn7logo.svg" alt="ENSEEIHT" className="logo-150px" title="ENSEEIHT" />
             </a>
             &nbsp;
-                <a href="http://www.frenchtechtoulouse.com" target="_blank">
+                <a href="http://www.frenchtechtoulouse.com" target="_blank" rel="noopener noreferrer">
               <Image src="logo-COULEURS-FrenchTechToulouse.png" alt="French Tech Toulouse" className="logo-150px" title="French Tech Toulouse" />
             </a>
             &nbsp;
-                <a href="http://www.toulouse.fr" target="_blank">
+                <a href="http://www.toulouse.fr" target="_blank" rel="noopener noreferrer">
               <Image src="Logo_mairie_de_Toulouse.svg" alt="Toulouse" className="logo-150px" title="Mairie de Toulouse" />
             </a>
             &nbsp;
-                <a href="https://www.laregion.fr" target="_blank">
+                <a href="https://www.laregion.fr" target="_blank" rel="noopener noreferrer">
               <Image src="1200px-Logo_Occitanie_2017.svg.png" alt="La Region Occitanie" className="logo-100px" title="La Region Occitanie" />
             </a>
             &nbsp;
-                <a href="http://www.solibre.fr" target="_blank">
+                <a href="http://www.solibre.fr" target="_blank" rel="noopener noreferrer">
               <Image src="logo-solibre.jpg" alt="Solibre" className="logo-150px" title="Solibre" />
             </a>
           </div>
           <div className="col-lg-4">
             <h3>Communication</h3>
             <div className="row">
-              <a href="http://www.editions-diamond.fr/" target="_blank">
+              <a href="http://www.editions-diamond.fr/" target="_blank" rel="noopener noreferrer">
                 <Image src="logo-edition-diamonds.png" alt="Éditions Diamonds" className="logo-100px" title="Éditions Diamonds" />
               </a>
               &nbsp;
-                <a href="https://www.bibliotheque.toulouse.fr/" target="_blank">
+                <a href="https://www.bibliotheque.toulouse.fr/" target="_blank" rel="noopener noreferrer">
                 <Image src="logo-bibliotheque-toulouse.jpg" alt="Bibliothèque de Toulouse" className="logo-100px" title="Bibliothèque de Toulouse" />
               </a>
               &nbsp;
-                <a href="https://tisseo-collectivites.fr/" target="_blank">
+                <a href="https://tisseo-collectivites.fr/" target="_blank" rel="noopener noreferrer">
                 <Image src="logo-tisseo-collectivites.png" alt="Tisséo Collectivités" className="logo-100px" title="Tisséo Collectivités" />
               </a>
               &nbsp;
-                <a href="https://radio-fmr.net/" target="_blank">
+                <a href="https://radio-fmr.net/" target="_blank" rel="noopener noreferrer">
                 <Image src="logo-radio-fmr.jpg" alt="Radio FMR" className="logo-100px" title="Radio FMR" />
               </a>
               &nbsp;
-                <a href="http://www.developpez.com" target="_blank">
+                <a href="http://www.developpez.com" target="_blank" rel="noopener noreferrer">
                 <Image src="logo-developpez.com.png" alt="Développez.com" className="logo-100px" title="Développez.com" />
               </a>
             </div>
@@ -477,7 +477,7 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-car text-primary sr-icons" data-sr-id="13" ></i>
+              <i className="fas fa-4x fa-car text-primary sr-icons" data-sr-id="13" ></i>
               <h3>En voiture</h3>
               <p className="text-muted">
                 Si vous souhaitez venir en voiture, nous vous invitons à partager votre trajet
@@ -488,21 +488,21 @@ const IndexPage = () => (
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-train text-primary sr-icons" data-sr-id="14" ></i>
+              <i className="fas fa-4x fa-train text-primary sr-icons" data-sr-id="14" ></i>
               <h3>En train</h3>
               <p className="text-muted">Le TGV vous dépose à la gare de Toulouse en plein centre ville, marchez environ 10min le long du Canal du Midi.</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-bus text-primary sr-icons" data-sr-id="15" ></i>
+              <i className="fas fa-4x fa-bus text-primary sr-icons" data-sr-id="15" ></i>
               <h3>En bus</h3>
               <p className="text-muted">Ouibus, par exemple, propose plusieurs liaisons quotidiennes Paris-Toulouse en 9 heures.</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box">
-              <i className="fa fa-4x fa-plane text-primary sr-icons" data-sr-id="16" ></i>
+              <i className="fas fa-4x fa-plane text-primary sr-icons" data-sr-id="16" ></i>
               <h3>En avion</h3>
               <p className="text-muted">Il y a un aéroport à Toulouse avec au moins un vol par jour au départ de :
           </p><ul className="list-unstyled">
@@ -539,7 +539,7 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-lg-3 col-md-6 text-center">
               <div className="service-box">
-                <i className="fa fa-4x fa-male text-primary sr-icons" data-sr-id="17" ></i>
+                <i className="fas fa-4x fa-male text-primary sr-icons" data-sr-id="17" ></i>
                 <h3>À pied</h3>
                 <p className="text-muted">L'école est idéalement située en centre ville. Si vous êtes en ville, vous pouvez rejoindre l'école située sur les bords du canal à pied.
           Vous êtes situé⋅e⋅s à moins de 10min à pied de la fameuse place du Capitole.</p>
@@ -547,7 +547,7 @@ const IndexPage = () => (
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="service-box">
-                <i className="fa fa-4x fa-subway text-primary sr-icons" data-sr-id="18" ></i>
+                <i className="fas fa-4x fa-subway text-primary sr-icons" data-sr-id="18" ></i>
                 <h3>En Métro</h3>
                 <p className="text-muted">L'école est située à 5min à pied de l'arrêt François Verdier sur la ligne de métro B.
       Les métros circulent jusqu'à 0h00 du dimanche au jeudi et jusqu'à 3h les vendredis et samedis.
@@ -558,7 +558,7 @@ const IndexPage = () => (
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="service-box">
-                <i className="fa fa-4x fa-bus text-primary sr-icons" data-sr-id="19" ></i>
+                <i className="fas fa-4x fa-bus text-primary sr-icons" data-sr-id="19" ></i>
                 <h3>En Bus</h3>
                 <p className="text-muted">L'école est située à proximité de nombreuses lignes de bus: 14, 22, 23, 27, 38
       Les bus et tramway circulent jusqu'à 0h30 du dimanche au jeudi et jusqu'à 1h00 les vendredis et samedi.
@@ -569,7 +569,7 @@ const IndexPage = () => (
             </div>
             <div className="col-lg-3 col-md-6 text-center">
               <div className="service-box">
-                <i className="fa fa-4x fa-bicycle text-primary sr-icons" data-sr-id="20" ></i>
+                <i className="fas fa-4x fa-bicycle text-primary sr-icons" data-sr-id="20" ></i>
                 <h3>En vélo libre service</h3>
                 <p className="text-muted">Toulouse dispose d'un système de vélos en libre service complémentaire des transports en commun : <a href="http://www.velo.toulouse.fr/">Vélô Toulouse</a>.
         </p>
@@ -615,23 +615,23 @@ const IndexPage = () => (
         </div>
         <div className="row">
           <div className="col-lg-3 text-center">
-            <i className="fa fa-mastodon fa-3x"></i>
+            <i className="fas fa-mastodon fa-3x"></i>
             <p><a href="https://framapiaf.org/@capitoledulibre">@capitoledulibre@framapiaf.org</a></p>
           </div>
           <div className="col-lg-3 text-center">
-            <i className="fa fa-twitter fa-3x"></i>
+            <i className="fas fa-twitter fa-3x"></i>
             <p><a href="https://twitter.com/capitoledulibre">@capitoledulibre</a></p>
           </div>
           <div className="col-lg-3 text-center">
-            <i className="fa fa-facebook fa-3x"></i>
+            <i className="fas fa-facebook fa-3x"></i>
             <p><a href="https://www.facebook.com/CapitoleDuLibre/">Capitole Du Libre</a></p>
           </div>
           <div className="col-lg-3 text-center">
-            <i className="fa fa-envelope-o fa-3x sr-contact" data-sr-id="24" ></i>
+            <i className="fas fa-envelope-o fa-3x sr-contact" data-sr-id="24" ></i>
             <p><a href="mailto:contact@capitoledulibre.org">contact@capitoledulibre.org</a></p>
           </div>
           <div className="col-lg-3 text-center">
-            <i className="fa fa-github fa-3x"></i>
+            <i className="fas fa-github fa-3x"></i>
             <p><a href="https://github.com/capitoledulibre">capitoledulibre</a></p>
           </div>
         </div>
@@ -649,11 +649,11 @@ const IndexPage = () => (
         </div>
         <div className="row">
           <div className="col-lg-3 col-lg-offset-3 text-center">
-            <i className="fa fa-github fa-3x"></i>
+            <i className="fas fa-github fa-3x"></i>
             <p><a href="https://github.com/capitoledulibre/2019.capitoledulibre.org/issues">Issues<br /><em>Signaler une erreur</em></a></p>
           </div>
           <div className="col-lg-3 text-center">
-            <i className="fa fa-github fa-3x"></i>
+            <i className="fas fa-github fa-3x"></i>
             <p><a href="https://github.com/capitoledulibre/2019.capitoledulibre.org/pulls">Pull request<br /><em>Proposer une modification</em></a></p>
           </div>
         </div>

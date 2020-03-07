@@ -29,5 +29,5 @@ jobs:
         host: ${{ secrets.webserverhostname }}
         username: ${{ secrets.webserverusername }}
         key: ${{ secrets.webserversshkeyprivate }}
-        source: "public/*"
+        source: "."
         target: "/srv/www/2020.capitoledulibre.org/htdocs"
